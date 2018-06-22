@@ -20,34 +20,27 @@
 #ifndef MAINGLWINDOW_H
 #define MAINGLWINDOW_H
 
-#include <QOpenGLWindow>
 #include <QOpenGLWidget>
 #include <QOpenGLFunctions>
 
-/*
-为方面使用OpenGL函数，从QOpenGLWindow继承的同时又同时从QOpenGLFunctions继承，当前QT版本中，不需要GLEW，
-因为QOpenGLFunctions可以访问OpenGL ES 2.0 API。也可以不从QOpenGLFunctions继承，通过QOpenGLContext来访问OpenGL函数，
-用法有2种:
-QOpenGLFunctions functions(QOpenGLContext::currentContext());
-functions.glFunctionHere();
-
-or
-
-QOpenGLFunctions *functions = QOpenGLContext::currentContext()->functions();
-functions->glFunctionHere();
-*/
 class MainGLWindow : public QOpenGLWidget, protected QOpenGLFunctions
-//class MainGLWindow : public QWindow, protected QOpenGLFunctions
-//class MainGLWindow : public QOpenGLWindow, protected QOpenGLFunctions
 {
     Q_OBJECT
 
 public:
-    explicit MainGLWindow(QWidget *parent = 0);//for QOpenGLWidget
-//    explicit MainGLWindow(QWindow *parent = 0);//for QWindow
+    explicit MainGLWindow(QWidget *parent = 0);
     ~MainGLWindow();
 
-    void printContextInformation();
+    float getRadius();
+    void setRadius(const float radius);
+
+    void setAfterglowAngle(float afterglowAngle);
+    void setScanAngle(float scanAngle);
+    void setSuspiciousPoint(const unsigned int distance, const float angle);
+
+    void drawArc();
+    void drawRadar();
+    void drawCirclePoint(const float centerX,const float centerY, const float radius);
 
 protected:
     //在通常情况下，我们还需要实现三个从父类QOpenGLWindow继承的虚函数
@@ -57,6 +50,12 @@ protected:
     void paintGL();
     //-----------end------------
 
+private:
+    GLfloat m_radius;//雷达扫描半径
+    GLfloat m_sanAngle;//旋转扫描角度
+    GLfloat m_afterglowAngle;//余晖角度大小
+    unsigned int m_circleCount;//雷达圆圈数
+    QPoint m_SuspiciousPoint;//可疑点坐标
 };
 
 #endif // MAINGLWINDOW_H
