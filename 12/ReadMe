@@ -1,0 +1,9 @@
+Function
+简要说明Phone式光照模型中的环境光照(ambient), 漫反射(diffuse)，镜面反射(specular)如何在OpenGL中的世界实现
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/02%20Lighting/02%20Basic%20Lighting/
+
+https://blog.csdn.net/z136411501/article/details/80112880

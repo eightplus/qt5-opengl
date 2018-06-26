@@ -1,0 +1,9 @@
+Function
+学习如何在OpenGL自由观察，即设计一个类似于3dMAX，Blender，或Unity3D中常见的摄像机观察机制。具有可以用键盘前后左右上下的视角控制功能，和鼠标拖移视角的功能。
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/01%20Getting%20started/09%20Camera/
+
+https://blog.csdn.net/z136411501/article/details/79939695

@@ -1,0 +1,9 @@
+Function
+学习OpenGL里的坐标系统，model矩阵，view矩阵，projection矩阵，如何将处于3D坐标系的点，投影到2D的电脑窗口。由2D编程进入3D编程的世界。
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/01%20Getting%20started/08%20Coordinate%20Systems/
+
+https://blog.csdn.net/z136411501/article/details/79932543

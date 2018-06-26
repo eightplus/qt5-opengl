@@ -1,0 +1,9 @@
+Function
+解释如何在着色器中设置物体的材质属性，与光的属性
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/02%20Lighting/03%20Materials/
+
+https://blog.csdn.net/z136411501/article/details/80139365

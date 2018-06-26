@@ -1,0 +1,9 @@
+Function
+学习着色器中uniform类型变量的传值，和QMatrix4*4矩阵的应用，掌握最基本的translate，scale，rotate矩阵操作
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/01%20Getting%20started/07%20Transformations/
+
+https://blog.csdn.net/z136411501/article/details/79927262

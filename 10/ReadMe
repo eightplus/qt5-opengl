@@ -1,0 +1,9 @@
+Function
+修改2D游戏框架结构，主要修改试图的转换，将自由移动的摄像机引入2D游戏框架，将其变成3D游戏框架
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/06%20In%20Practice/2D-Game/01%20Breakout/
+
+https://blog.csdn.net/z136411501/article/details/80087447

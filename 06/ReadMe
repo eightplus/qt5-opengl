@@ -1,0 +1,9 @@
+Function
+使用QOpenGLTexture类绑定纹理，分别生成普通纹理，混合纹理与在shader中使用纹理单元
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/01%20Getting%20started/06%20Textures/
+
+https://blog.csdn.net/z136411501/article/details/79905085

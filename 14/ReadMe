@@ -1,0 +1,9 @@
+Function
+漫反射贴图:其实就是应用纹理，将纹理放进shader着色器中，用光照效果渲染
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/02%20Lighting/04%20Lighting%20maps/
+
+https://blog.csdn.net/z136411501/article/details/80149125

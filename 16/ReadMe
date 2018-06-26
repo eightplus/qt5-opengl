@@ -1,0 +1,9 @@
+Function
+对上篇三种投光物，平行光，点光源，手电筒的汇总，将三种类型的光源一同使用
+
+Reference
+基于JoeyDeVries 和 IHNF 的代码进行Ubuntu 16.04上的适配
+
+https://learnopengl-cn.github.io/02%20Lighting/06%20Multiple%20lights/
+
+https://blog.csdn.net/z136411501/article/details/80174252
